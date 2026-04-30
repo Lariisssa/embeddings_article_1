@@ -9,35 +9,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="bg-blur"></div>
+    <div class="bg-image"></div>
+    <div class="bg-overlay"></div>
     <div id="particles-container"></div>
-
-    <div class="sun-rays"></div>
 
     <header class="hero">
         <div class="hero-content">
-            <div class="image-wrapper">
-                <div class="image-container">
-                    <img src="lirea.png" alt="Lirea, a Transfigurada" class="lirea-img">
-                </div>
-                <div class="floating-butterflies">
-                    <i class="fa-solid fa-butterfly b1"></i>
-                    <i class="fa-solid fa-butterfly b2"></i>
-                    <i class="fa-solid fa-butterfly b3"></i>
-                </div>
-            </div>
-            
-            <div class="title-container">
+            <div class="hero-text">
+                <h2 class="subtitle">A Fada Borboleta</h2>
                 <h1 class="title">Lirea</h1>
-                <h2 class="subtitle">A Transfigurada</h2>
-                <div class="badge">Maga da Transmutação • Fada Borboleta de Tigela</div>
+                <div class="badge-wrapper">
+                    <div class="badge">Maga da Transmutação • Tigela</div>
+                </div>
+                <p class="hero-description">"Por que usar a força bruta se um sorriso fofo e o feitiço certo resolvem tudo?"</p>
+                <a href="#historia" class="btn-scroll">Adentre a Floresta <i class="fas fa-chevron-down"></i></a>
             </div>
-            <a href="#historia" class="btn-scroll">Adentre a Floresta <i class="fas fa-chevron-down"></i></a>
+
+            <div class="hero-image-section">
+                <div class="image-wrapper">
+                    <img src="lirea.png" alt="Lirea, a Transfigurada" class="lirea-img">
+                    <div class="floating-butterflies">
+                        <i class="fa-solid fa-butterfly b1"></i>
+                        <i class="fa-solid fa-butterfly b2"></i>
+                        <i class="fa-solid fa-butterfly b3"></i>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
     <main>
-        <!-- The Full Story Section (More creative) -->
+        <!-- The Full Story Section -->
         <section id="historia" class="section story-section">
             <h2 class="section-title">O Conto da Transfiguração</h2>
             
@@ -76,11 +78,11 @@
         </section>
 
         <section id="stats" class="section stats-section">
-            <h2 class="section-title">A Ficha da Gênia e Magnética</h2>
+            <h2 class="section-title">A Ficha Magnética</h2>
             
             <div class="stats-grid">
                 <!-- Attributes -->
-                <div class="stat-card glass-panel pink-tint">
+                <div class="stat-card pink-tint">
                     <div class="card-icon"><i class="fas fa-chart-pie"></i></div>
                     <h3>Atributos Base</h3>
                     <div class="attributes-list">
@@ -94,7 +96,7 @@
                 </div>
 
                 <!-- Social Arsenal & Inventory -->
-                <div class="stat-card glass-panel blue-tint">
+                <div class="stat-card blue-tint">
                     <div class="card-icon"><i class="fas fa-comments"></i></div>
                     <h3>Arsenal Social</h3>
                     <ul class="fancy-list">
@@ -106,7 +108,7 @@
                     
                     <h3 class="mt-4"><i class="fas fa-gem"></i> Inventário Glamouroso</h3>
                     <div class="tags-container">
-                        <span class="tag"><i class="fas fa-book-journal-whills"></i> Livro de Magias Luxuoso</span>
+                        <span class="tag"><i class="fas fa-book-journal-whills"></i> Livro de Magias</span>
                         <span class="tag"><i class="fas fa-wand-magic-sparkles"></i> Cajado de Cristal</span>
                         <span class="tag"><i class="fas fa-paintbrush"></i> Kit de Maquiagem</span>
                         <span class="tag trans-tag"><i class="fas fa-hand-sparkles"></i> Esmalte Trans</span>
@@ -114,24 +116,22 @@
                 </div>
 
                 <!-- Spells -->
-                <div class="stat-card glass-panel white-tint">
+                <div class="stat-card white-tint">
                     <div class="card-icon"><i class="fas fa-star"></i></div>
-                    <h3>Grimório de Transmutação</h3>
+                    <h3>Grimório</h3>
                     
                     <div class="spell-group">
                         <h4>Truques Fofos</h4>
-                        <div class="spell-item"><strong>Amizade:</strong> Piscadinha para vantagem em Carisma.</div>
+                        <div class="spell-item"><strong>Amizade:</strong> Piscadinha para vantagem.</div>
                         <div class="spell-item"><strong>Ilusão Menor:</strong> Brilhinhos e barulhinhos fofos.</div>
-                        <div class="spell-item"><strong>Rajada de Veneno:</strong> Pó tóxico pra quem estraga a maquiagem!</div>
+                        <div class="spell-item"><strong>Rajada de Veneno:</strong> Pó tóxico!</div>
                     </div>
                     
                     <div class="spell-group mt-2">
                         <h4>Feitiços de 1º Nível</h4>
-                        <div class="spell-item"><strong>Enfeitiçar Pessoa:</strong> O "papinho" principal.</div>
-                        <div class="spell-item"><strong>Comando:</strong> Ordem fofa e absoluta ("Senta").</div>
-                        <div class="spell-item"><strong>Mísseis Mágicos:</strong> Borboletas de energia rosa e azul.</div>
-                        <div class="spell-item"><strong>Disfarce Próprio:</strong> Troca de look instantânea.</div>
-                        <div class="spell-item"><strong>Armadura Arcana:</strong> O vestido não defende espadas.</div>
+                        <div class="spell-item"><strong>Enfeitiçar Pessoa:</strong> O "papinho".</div>
+                        <div class="spell-item"><strong>Comando:</strong> Ordem fofa ("Senta").</div>
+                        <div class="spell-item"><strong>Mísseis Mágicos:</strong> Borboletas de energia.</div>
                     </div>
                 </div>
             </div>
@@ -139,12 +139,11 @@
     </main>
 
     <footer class="grand-finale">
-        <div class="glass-panel text-center finale-content">
+        <div class="finale-content text-center">
             <h2>O Solstício a Aguarda</h2>
             <p>Lirea se prepara para viajar à capital para o Solstício de Verão, celebrando junto à veneradíssima rainha Verona e à princesa Jimba.</p>
             <p class="footer-quote">"Armada com sua lábia imbatível, seu intelecto afiado e seus feitiços, ela está pronta para explorar Tigela com o poder absoluto do seu charme."</p>
         </div>
-        <div class="footer-butterflies"></div>
     </footer>
 
     <script src="script.js"></script>
